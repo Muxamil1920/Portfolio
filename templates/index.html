@@ -1,0 +1,173 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>RESPONSIVE PERSONAL PORTFOLIO WEBSITE </title>
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+        <link rel="stylesheet" type="text/css" href="{% static 'style.css' %}">
+        
+    </head>
+    <body>
+        <!--body-->
+        <header class="header">
+            <a href="#" class="logo">Portfolio</a>
+            <i class='bx bx-menu' id="menu-icon"></i>
+            <nav class="navbar">
+                <a href="#home" class="active">Home</a>
+                <a href="#about">ABOUT</a>
+                <a href="#services">SERVICES</a>
+                <a href="#portfolio">PORTFOLIO</a>
+                <a href="#contact">CONTACT</a>
+            </nav>
+        </header>
+        <section class="home" id="home">
+            <div class="home-content">
+                <h3>Hello,It's Me</h3>
+                <h1>Muzamil Manzoor Bhat</h1>
+                <h3>And I'm a <span class="multiple-text"></span></h3>
+                <div class="social-media">
+                    <a href="https://github.com/tahirbashir754"><i class='bx bxl-github'></i></a>
+                    <a href="https://gmail.com/tahirbinbashir789@gmail.com"><i class='bx bxs-envelope'></i></a>
+                    <a href="https://instagram.com/tahirbinbashir754"><i class='bx bxl-instagram' ></i></a>
+                    <a href="https://www.linkedin.com/in/muzamil-manzoor-513008182/"><i class='bx bxl-linkedin-square' ></i></a>
+                </div>
+                <a href="https://resume.io/r/qf3hHe15z" class="btn">CHECK MY CV</a>
+            </div>
+            <div class="home-img">
+                <img src="static\images\IMG_20230709_100531.jpg" alt="">
+            </div>
+        </section>
+        <section class="about" id="about">
+            <div class="about-img">
+                <img src="https://wallpaperaccess.com/full/1385382.jpg" alt="">
+            </div>
+            <div class="about-content">
+                <h2 class="heading">About<span>Me</span></h2>
+                <h3>Full-Stack Developer</h3>
+                <p>As a Python full stack developer, my passion lies in creating dynamic and user-friendly web applications. With expertise in both front-end and back-end development, I strive to deliver seamless experiences and innovative solutions. I enjoy tackling complex problems, collaborating with diverse teams, and constantly exploring new technologies. Let's build amazing digital experiences together! </p>
+                 <a href="#"class="btn">Read More</a>   
+            </div>
+        </section>
+        <section class="services"id="services">
+            <h2 class="heading">Our<span>Services</span></h2>
+
+            <div class="services-container">
+                <div class="services-box">
+                    <i class='bx bx-code-alt'></i>
+                    <h3>Web Development</h3>
+                    <p>Motivated Developer
+                        Designing and developing responsive websites using HTML, CSS, JavaScript,Python and frameworks like Django etc.
+                         </p>
+                    <a href="#"class="btn">Read More</a>
+                </div>
+        
+                <div class="services-box">
+                    <i class='bx bx-slideshow' ></i>
+                    <h3></h3>
+                    <p>Front-end Development: Creating visually appealing user interfaces and implementing custom designs.</p>
+                    <p>Back-end Development: Developing server-side logic, APIs, and database management using technology like Python.</p>
+                    <a href="#"class="btn">Read More</a> 
+                </div>
+                <div class="services-box">
+                    <i class='bx bx-data' ></i>
+                    <h3></h3>
+                   <p>Database Design and Management: Designing and optimizing relational databases using SQL or technologies like MySQL.</p>
+                   <p>API Integration: Integrating third-party APIs to enhance functionality and data exchange between systems.</p>
+                    <a href="#"class="btn">Read More</a> 
+                </div>
+            
+              
+            </div>
+        </section>
+        <section class="portfolio"id="portfolio">
+            <h2 class="heading">Latest<span>Project</span></h2>
+            <div class="portfolio-container">
+                <div class="portfolio-box">
+                    <img src="static/images/computer_engineer-compare-page.png"alt="">
+                    <div class="portfolio-layer">
+                        <h4>Perssonal Portfolio</h4>
+                        <p>In this project I try making my own portfolio website for myself. Showcase my projects, my social media handles, my experience on the website.</p>
+                        <a href="#"><i class='bx bx-link-external' ></i></a>
+                    </div>
+                </div>
+                <div class="portfolio-box">
+                    <img src="static/images/jan-vlacuha-Rns_A8bJ_dQ-unsplash.jpg"alt="">
+                    <div class="portfolio-layer">
+                        <h4>Hospital Management System</h4>
+                        <p>In this project I try deployed dynamics website.So that we can add deleted the data by connecting to databases.</p>
+                        <a href="#"><i class='bx bx-link-external' ></i></a>
+                    </div>
+                </div>
+                <div class="portfolio-box">
+                    <img src="static/images/kevin-canlas-QYHehJ9Iovs-unsplash.jpg"alt="">
+                    <div class="portfolio-layer">
+                        <h4>Ecommerce Website</h4>
+                        <p>In this project I try detect the online store by using Python.It is a robust online platform for buying and selling products. With a user-friendly interface, secure payment gateways, and efficient database management, it offers a seamless shopping experience to customers while enabling businesses to manage inventory, process orders, and track sales effectively.</p>
+                        <a href="#"><i class='bx bx-link-external' ></i></a>
+                    </div>
+                </div>
+                <div class="portfolio-box">
+                    <img src="static/images/austin-poon-JO_S6ewBqAk-unsplash.jpg"alt="">
+                    <div class="portfolio-layer">
+                        <h4>Hotel Management System</h4>
+                        <p>The hotel management system built with Python, JavaScript through  Django is a comprehensive solution for managing various aspects of a hotel. It allows for efficient reservation management, room availability tracking, guest check-in/check-out processes, billing, and reporting. With its user-friendly interface and powerful functionality, it streamlines hotel operations and enhances guest satisfaction.</p>
+                        <a href="#"><i class='bx bx-link-external' ></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="contact"id="contact">
+            <h2 class="heading">Contact<span>ME!</span></h2>
+
+            <form action="#" name="submit-to-google-sheet">
+                <div class="input-box">
+                    <input type="text" name="Name" placeholder="Full Name">
+                    <input type="email" name="Email Address" placeholder="Email Address">
+                </div>
+                <div class="input-box">
+                    <input type="number" name="Mobile Number"placeholder="Mobile Number">
+                    <input type="text"name="Email Subject" placeholder="Email Subject">
+                </div>
+                <textarea name="Your Message" id="" cols="30" rows="10"placeholder="Your Message"></textarea>
+                <input type="submit" value="Send Message"class="btn">
+            </form>
+            <span id="msg"></span>
+        </section>
+
+        <footer class="footer">
+            <div class="footer-text">
+                <p>Copyright &copy; 2023 by Tahir Bin Bashir | All Rights Reserved.</p>
+            </div>
+            <div class="footer-iconTop">
+                <a href="#home"><i class='bx bx-up-arrow-alt' ></i></a>
+            </div>
+        </footer>
+
+        <script src="https://unpkg.com/scrollreveal"></script>
+
+        <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+        <script src="static/js/script.js"></script>
+        <script>
+            const form = document.forms['submit-to-google-sheet']
+            const msg=document.getElementById("msg")
+          
+            form.addEventListener('submit', e => {
+              e.preventDefault()
+              fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+                .then(response => {
+                    msg.innerHTML="Message sent successfully"
+                    setTimeout(function(){
+                        msg.innerHTML=""
+                    },5000)
+                    form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
+            })
+            
+          </script>
+        
+    </body>
+</html>
