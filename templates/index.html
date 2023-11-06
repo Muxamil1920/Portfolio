@@ -122,17 +122,18 @@
         <section class="contact"id="contact">
             <h2 class="heading">Contact<span>ME!</span></h2>
 
-            <form action="#" name="submit-to-google-sheet">
+            <form action="sucess/" id="contact" method='post'>
+                {% csrf_token %}
                 <div class="input-box">
-                    <input type="text" name="Name" placeholder="Full Name">
-                    <input type="email" name="Email Address" placeholder="Email Address">
+                    <input type="text" name="name" placeholder="Full Name" id="name">
+                    <input type="email" name="email" placeholder="Email Address" id="email">
                 </div>
                 <div class="input-box">
-                    <input type="number" name="Mobile Number"placeholder="Mobile Number">
-                    <input type="text"name="Email Subject" placeholder="Email Subject">
+                    <input type="number" name="number"placeholder="Mobile Number" id="number">
+                    <input type="text"name="subject" placeholder="subject" id="subject">
                 </div>
-                <textarea name="Your Message" id="" cols="30" rows="10"placeholder="Your Message"></textarea>
-                <input type="submit" value="Send Message"class="btn">
+                <textarea name="message" id="message" cols="30" rows="10"placeholder="Your Message"></textarea>
+                <h4 class="Contact"><input type="submit" value="Send Message" class="btn"></h4>
             </form>
             <span id="msg"></span>
         </section>
@@ -151,7 +152,7 @@
         <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
         <script src="static/js/script.js"></script>
         <script>
-            const form = document.forms['submit-to-google-sheet']
+            const form = document.forms[contact]
             const msg=document.getElementById("msg")
           
             form.addEventListener('submit', e => {
