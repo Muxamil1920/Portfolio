@@ -45,7 +45,7 @@ ScrollReveal().reveal('.home-content h1,.about-img',{origin:'left'});
 ScrollReveal().reveal('.home-content p,.about-content',{origin:'right'});
 
 const typed = new Typed('.multiple-text',{
-    strings:['Full-Stack Student at Solitaire Infosys ','Full-Stack Developer'],
+    strings:['Full-Stack Python Developer ','Data Scientist', 'AIML Engineer', 'Data Analyst'],
     typeSpeed:100,
     backSpeed:100,
     backDelay:999,
