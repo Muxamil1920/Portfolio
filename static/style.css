@@ -225,9 +225,9 @@
    margin-bottom: 4rem;
 }
 .portfolio-container{
-   display: grid;
-   grid-template-columns: repeat(3,1fr);
-   align-items: center;
+   display:grid;
+   grid-template-columns: repeat(3, 2fr);
+   align-items:normal;
    gap: 2.5rem;
 }
 .portfolio-container .portfolio-box{
