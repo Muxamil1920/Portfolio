@@ -11,10 +11,9 @@ function AboutCard() {
             Hi Everyone, I am <span className="purple">Muzamil Manzoor </span>
             from <span className="purple"> Kashmir, India.</span>
             <br />
-            I am currently Self employed.
+            Founder and CEO of Shinalabs.
             <br />
-            I have completed BCA at PTU
-            Mohali.
+            I have 5+ YOE in Different domains.
             <br />
             <br />
             Apart from coding, some other activities that I love to do!
