@@ -19,7 +19,7 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              Startup Founder @Shinalabs. I fell in love with programming and I have at least learnt
+              Startup Founder <a href="https://www.Shinalabs.com" target="_blank" rel="noreferrer">Shinalabs</a>. I fell in love with programming and I have at least learnt
               something, I think… 🤷‍♂️
               <br />
               <br />I am fluent in classics with
